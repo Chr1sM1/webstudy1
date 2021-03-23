@@ -27,7 +27,7 @@
             padding: 100px 80px 80px 50px;
         }
 
-        .logo{
+        .logo {
             font-size: 30px;
             width: 100%;
             text-align: center;
@@ -38,10 +38,12 @@
 </head>
 <body>
 
+<%@include file="window.jsp" %>
+
 <div class="login">
     <div class="login-layout">
         <form class="layui-form" method="post"
-              action="./doLogin.jsp">
+              action="/login">
             <div class="layui-form-item">
                 <label class="layui-form-label logo">
                     图书馆
